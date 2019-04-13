@@ -1,9 +1,38 @@
-# Definition
+# Definitions of Unreliable Data
 
-## Basic:
-Positive Integer: "^[0-9]+$"
+In the event that all data from a particular section, of a given dataset 100% matches the definition, then it matches the definition.
 
-## Date:
+# Basic:
+Starting Definitions for the most basic things.
+```
+String: "^.+$"
+Number: "^[0-9,]+$"
+```
+## String Subtypes
+Narrowing
+```
+Word? Dictionary Check: "[A-Za-z]"
+```
+## Computable Number Subtypes
+Narrowing
+```
+Positive Integer: "^[+][0-9]+$"
+Negative Integer: "^-[0-9]+$"
+```
+## Space
+```
+Latitude: '^[0-9]{1,2}[\.0-9]{0,6}$'
+Latitude: '^[0-1]{,1}[0-8]{0,1}[0-9]{1,1}[\.0-9]{0,6}$'
+```
+## Time
+Precise times, relative and absolute
+```
+Time of Day: '^[0-2]{1,1}[0-9]{1,1}:[0-5]{1,1}[0-9]{1,1}:[0-5]{1,1}[0-9]$'
+Unix Epoch Time: '^[0-9]{1,10}$'
+```
+
+### Date and DateTime
+Dates, Dates Coupled with times
 ```
 4Year-2Month-2day: "^[0-9]{4,4}-[0-1]{1,1}[0-9]{1,1}-[0-3]{1,1}[0-9]{1,1}$"
 4Year-2Month-2Day 2hour:2Minute:2Second "^[0-9]{4,4}-[0-1]{1,1}[0-9]{1,1}-[0-3]{1,1}[0-9]{1,1} [0-2]{1,1}[0-9]{1,1}:[0-5]{1,1}[0-9]{1,1}:[0-5]{1,1}[0-9]$"
