@@ -7,6 +7,7 @@ Starting Definitions for the most basic things.
 ```
 String: "^.+$"
 Number: "^[0-9,]+$"
+Null "^$"
 ```
 ## String Subtypes
 Narrowing
