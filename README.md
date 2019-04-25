@@ -16,7 +16,8 @@ Word? Dictionary Check: "[A-Za-z]"
 ## Computable Number Subtypes
 Narrowing
 ```
-Positive Integer: "^[+][0-9]+$"
+Positive Integer: "^[+]*[0-9]+$"
+With Null: "^[+]*[0-9]+$|^$"
 Negative Integer: "^-[0-9]+$"
 ```
 ## Space
