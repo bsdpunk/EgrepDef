@@ -2,6 +2,12 @@
 
 In the event that all data from a particular section, of a given dataset 100% matches the definition, then it matches the definition.
 
+## funCreator.sh
+Creates isdataType function for bash, just supply dataType name and regex definition
+```
+bash funCreator.sh latlong "(^$|^[-]*[0-1]{0,1}[0-9]{1,2}[\.]{1,1}[0-9]{0,7}$)"
+```
+
 # Basic:
 Starting Definitions for the most basic things.
 ```
