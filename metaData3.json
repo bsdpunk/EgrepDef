@@ -1,0 +1,15 @@
+{
+  "column": "Dispatch_Date_Time",
+    "data": [
+      {
+        "column": "Dispatch_Date_Time",
+        "columnNumber": "3",
+        "dataType": "DateTime",
+        "length": {
+          "max": "19",
+          "min": "19",
+          "total": ""
+          }
+     }
+   ]
+}

@@ -1,0 +1,13 @@
+{
+  "metadata":
+    [
+      {
+        "column": "Month",
+        "columnNumber": "12",
+        "dataType": "integer",
+        "length": {
+          "max": "7",
+          "min": "7",
+          "total": ""
+          }
+}]}

@@ -1,0 +1,13 @@
+{
+  "metadata":
+    [
+      {
+        "column": "Dc_Key",
+        "columnNumber": "7",
+        "dataType": "integer",
+        "length": {
+          "max": "12",
+          "min": "12",
+          "total": ""
+          }
+}]}

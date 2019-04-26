@@ -1,0 +1,13 @@
+{
+  "metadata":
+    [
+      {
+        "column": "Dispatch_Time",
+        "columnNumber": "5",
+        "dataType": "Punc",
+        "length": {
+          "max": "8",
+          "min": "8",
+          "total": ""
+          }
+}]}

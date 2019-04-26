@@ -1,0 +1,13 @@
+{
+  "metadata":
+    [
+      {
+        "column": "Police_Districts",
+        "columnNumber": "11",
+        "dataType": "integer",
+        "length": {
+          "max": "2",
+          "min": "0",
+          "total": ""
+          }
+}]}

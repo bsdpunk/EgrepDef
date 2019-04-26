@@ -1,0 +1,13 @@
+{
+  "metadata":
+    [
+      {
+        "column": "Location_Block",
+        "columnNumber": "8",
+        "dataType": "integer",
+        "length": {
+          "max": "45",
+          "min": "1",
+          "total": ""
+          }
+}]}

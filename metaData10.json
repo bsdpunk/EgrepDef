@@ -1,0 +1,13 @@
+{
+  "metadata":
+    [
+      {
+        "column": "Text_General_Code",
+        "columnNumber": "10",
+        "dataType": "integer",
+        "length": {
+          "max": "39",
+          "min": "0",
+          "total": ""
+          }
+}]}

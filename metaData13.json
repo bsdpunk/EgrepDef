@@ -1,0 +1,13 @@
+{
+  "metadata":
+    [
+      {
+        "column": "Lon",
+        "columnNumber": "13",
+        "dataType": "Punc",
+        "length": {
+          "max": "10",
+          "min": "0",
+          "total": ""
+          }
+}]}

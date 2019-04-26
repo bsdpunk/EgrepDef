@@ -1,0 +1,13 @@
+{
+  "metadata":
+    [
+      {
+        "column": "UCR_General",
+        "columnNumber": "9",
+        "dataType": "integer",
+        "length": {
+          "max": "4",
+          "min": "0",
+          "total": ""
+          }
+}]}

@@ -1,0 +1,15 @@
+{
+  "column": "Psa",
+    "data": [
+      {
+        "column": "Psa",
+        "columnNumber": "2",
+        "dataType": "integer",
+        "length": {
+          "max": "1",
+          "min": "1",
+          "total": ""
+          }
+     }
+   ]
+}
