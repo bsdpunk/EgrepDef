@@ -162,3 +162,20 @@ function isdatetime() {
 
 
 }
+
+function islatlong() {
+
+    if [[ "$2" -eq 10 ]]; then 
+        count=$(egrep -c "(^$|^[-]*[0-1]{0,1}[0-9]{1,2}[\.]{1,1}[0-9]{0,7}$)" <( head $1) )
+    else
+        count=$(egrep -c "(^$|^[-]*[0-1]{0,1}[0-9]{1,2}[\.]{1,1}[0-9]{0,7}$)" $1)
+    fi
+    if [[ "$count" -eq "$2" ]]; then
+        return 0
+    else
+        return 1
+    fi
+
+
+
+}
