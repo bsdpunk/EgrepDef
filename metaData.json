@@ -16,3 +16,51 @@
    ]
 }
 ,
+{
+  "column": "Psa",
+    "data": [
+      {
+        "column": "Psa",
+        "columnNumber": "2",
+        "dataType": "",
+        "length": {
+          "max": "1",
+          "min": "1",
+          "total": ""
+          }
+     }
+   ]
+}
+,
+{
+  "column": "Dispatch_Date_Time",
+    "data": [
+      {
+        "column": "Dispatch_Date_Time",
+        "columnNumber": "3",
+        "dataType": "DateTime",
+        "length": {
+          "max": "19",
+          "min": "19",
+          "total": ""
+          }
+     }
+   ]
+}
+,
+{
+  "column": "Dispatch_Date",
+    "data": [
+      {
+        "column": "Dispatch_Date",
+        "columnNumber": "4",
+        "dataType": "",
+        "length": {
+          "max": "10",
+          "min": "10",
+          "total": ""
+          }
+     }
+   ]
+}
+,

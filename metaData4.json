@@ -4,7 +4,7 @@
       {
         "column": "Dispatch_Date",
         "columnNumber": "4",
-        "dataType": "DateTime",
+        "dataType": "",
         "length": {
           "max": "10",
           "min": "10",

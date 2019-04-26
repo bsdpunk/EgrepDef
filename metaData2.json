@@ -4,7 +4,7 @@
       {
         "column": "Psa",
         "columnNumber": "2",
-        "dataType": "integer",
+        "dataType": "",
         "length": {
           "max": "1",
           "min": "1",
